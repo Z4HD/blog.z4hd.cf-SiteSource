@@ -1,0 +1,115 @@
+/*
+type your custom css here
+在本页面键入您的自定义CSS
+*/
+
+body {
+  font-size: 15px;
+}
+
+/*#main-navigation li a, .widget_athemes_tabs .widget ul li a, body {*/
+*{
+  font-family: "微软雅黑", Ubuntu, "Microsoft YaHei UI", Arial, Helvetica, sans-serif !important;
+}
+
+.widget_athemes_tabs .widget ul li a{
+  text-transform: none;
+}
+
+/*hexo-tag-admonition style*/
+
+.admonition {
+  padding: 0 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.admonition-title {
+  font-weight: bold;
+  text-align: left;
+}
+
+.admonition.note, .admonition.info, .admonition.tips {
+  color: #1d6fa5;
+  background-color: #a0cfee;
+  border-color: #3498db;
+}
+
+.admonition.warning, .admonition.warn, .admonition.important {
+  color: #a85913;
+  background-color: #f3c195;
+  border-color: #e67e22;
+}
+
+.admonition.danger, .admonition.critical {
+  color: #bf2718;
+  background-color: #f5b4ae;
+  border-color: #e74c3c;
+}
+
+/*框线特效*/
+
+.site-title {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding: 11px 15px 9px 17px;
+  text-align: center;
+}
+
+.site-title a {
+  color: #fff;
+  display: block;
+  font-family: "Poppins", "Roboto", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.site-title>a::after, .site-title>a::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 12px;
+}
+
+.site-title>a::before {
+  top: 0px;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+
+.site-title>a::after {
+  bottom: 0px;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+
+/*框线特效结束*/
+
+/*边框特效开始*/
+
+div.archives {
+  border-top: solid 1px black;
+}
+
+.archive-article {
+  /*border-top: solid 1px black;*/
+  border-bottom: solid 1px black;
+  /*border-left: solid 1px black*/
+}
+
+.archive-article:hover {
+  border: solid 3px rgba(7, 212, 255, 1);
+  border-radius: 12px;
+  background-color: #e6e6e6
+}
+
+/*边框特效结束*/
+
+/* end */
